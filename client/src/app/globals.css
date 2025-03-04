@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Tapestry&display=swap');
 @import "tailwindcss";
 
 @theme {
@@ -5,15 +6,27 @@
   --font-mono: var(--font-geist-mono);
 }
 
+.tapestry {
+  font-family: "Tapestry", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.inter {
+  font-family: "Inter", sans-serif;
+
+  font-style: normal;
+}
+
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #1c2231;
+  --foreground: #d9d9d9;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: #1c2231;
+    --foreground: #d9d9d9;
   }
 }
 
@@ -21,4 +34,32 @@ body {
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.double-border {
+  border-width: 6px;
+  border-style: solid;
+  border-color: #759cc2;
+  position: relative;
+}
+
+.double-border::after {
+  content: "";
+  /* position: absolute; */
+  display: block;
+  z-index: 5;
+  width: 100%;
+  aspect-ratio: 1/1;
+  border-width: 6px;
+  border-style: solid;
+  border-color: #ff0000;
+  top: -6px;
+  left: -6px;
+  background: #000;
+
+}
+
+.specialtext {
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 2px;
 }
