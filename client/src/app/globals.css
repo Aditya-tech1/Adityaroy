@@ -37,10 +37,13 @@ body {
 }
 
 .double-border {
-  border-width: 6px;
+  border-width: 8px;
   border-style: solid;
-  border-color: #759cc2;
+  border-color: #1c2231;
   position: relative;
+  box-sizing: border-box;
+  background: #759cc2;
+  padding: 8px;
 }
 
 .double-border::after {
@@ -62,4 +65,8 @@ body {
 .specialtext {
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke-width: 2px;
+}
+
+.drop-shadow-xl{
+  filter: drop-shadow(0 0px 25px rgba(255, 255, 255, 0.5));
 }
