@@ -4,7 +4,6 @@ import React from 'react'
 export default function Education() {
     return (
         <div className='w-full min-h-screen  relative'>
-            <p  className='-z-10 w-full absolute top-1/2 left-1/2 -translate-1/2 font-extrabold opacity-25 text-[#d9d9d9] text-[18rem]'>Education</p>
 
             <h1 className='bg-[#d9d9d9] text-[#1c2231] text-6xl p-6 text-center font-extralight '>Who I Studied?</h1>
             <div className='mt-18 flex flex-row m-auto w-full px-32 justify-center gap-8'>
