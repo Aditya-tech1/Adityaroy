@@ -5,12 +5,12 @@ import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar";
 import Project from "@/components/Project";
 import Footer from "@/components/Footer";
+import Link from 'next/link';
 
 export default function Home() {
   return (
     <>
       <Navbar />
-      <span id="wtblock" className="absolute top-0 w-full h-screen bg-[#d9d9d9] -skew-x-45 right-1/2 -z-10"></span>
 
       <Hero />
       <About />
@@ -18,6 +18,9 @@ export default function Home() {
       <Project />
       <Contact />
       <Footer />
+
+      <Link href="#" className='px-4 border-2 border-[#1c2231]  py-2 font-extrabold flex items-center justify-center aspect-square bg-[#d9d9d9] text-[#1c2231] rounded-full fixed right-2 bottom-2 z-40 drop-shadow-2xl '>&uarr;</Link>
+
       
     </>
   );

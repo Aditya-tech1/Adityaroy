@@ -201,7 +201,7 @@ export default function Home() {
               <div 
                 key={card.id}
                 className={`absolute bg-white rounded-lg shadow-xl overflow-hidden cursor-pointer
-                  w-72 h-80 transition-all duration-500 ${style}`}
+                  sm:w-72 w-64 h-80 transition-all duration-500 ${style}`}
                 onClick={() => {
                   handleCarouselInteraction();
                   if (position === 'left') handlePrev();
