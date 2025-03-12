@@ -3,7 +3,7 @@ import React from 'react'
 export default function Hero() {
   return (
     <div className='w-full h-screen flex flex-col items-center justify-center sm:pt-32 pt-10 gap-8'>
-      <span id="wtblock" className="absolute top-0 sm:w-full w-[40rem] h-screen bg-[#d9d9d9] sm:-skew-x-45 -skew-x-30 right-1/2 -z-10"></span>
+      <span id="wtblock" className="absolute top-0 sm:w-full w-[40rem] h-screen bg-[#d9d9d9] sm:-skew-x-45 -skew-x-25 right-1/2 -z-10"></span>
 
       <div className='flex sm:flex-row flex-col justify-evenly items-center sm:h-1/2 h-full   w-full'>
         <h1 className='text-5xl text-[#1c2231]'>Hii<span className='sm:hidden inline'>, I am</span> </h1>
