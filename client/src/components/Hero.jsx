@@ -13,7 +13,7 @@ export default function Hero() {
 
         <h1 className='text-5xl  text-[#d9d9d9] hidden sm:flex'>I am</h1>
       </div>
-      <div className='sm:text-[10rem]  pb-10 text-7xl text-center text-wrap mix-blend-difference font-sans font-extrabold text-[#d9d9d9] tracking-wider specialtext'>ADITYA ROY</div>
+      <div className='sm:text-[10rem]  pb-10 text-7xl text-center text-wrap mix-blend-difference font-extrabold text-[#d9d9d9] tracking-wider specialtext'>ADITYA ROY</div>
     </div>
   )
 }

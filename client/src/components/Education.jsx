@@ -5,7 +5,7 @@ export default function Education() {
     return (
         <div className='w-full min-h-screen  relative py-6 sm:py-0'>
 
-            <h1 id='education' className='bg-[#d9d9d9] text-[#1c2231] sm:text-6xl text-4xl p-6 text-center font-extralight '>Who I Studied?</h1>
+            <h1 id='education' className='bg-[#d9d9d9] text-[#1c2231] sm:text-6xl text-4xl p-6 text-center font-extralight '>What I Studied?</h1>
             <div className='sm:mt-18 mt-8 flex sm:flex-row flex-col m-auto w-full sm:px-32 px-10 mx-auto justify-center sm:gap-8 gap-4 items-center'>
 
                 <div className='sm:w-80 w-80 h-124 bg-[#d9d9d9] p-4 text-[#1c2231] rounded-xl flex flex-col justify-evenly'>
