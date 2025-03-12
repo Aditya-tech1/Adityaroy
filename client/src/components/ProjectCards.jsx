@@ -9,38 +9,26 @@ export default function Home() {
     { 
       id: 0, 
       title: "Avinya- A tech fest website",
-      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis beatae ut non corporis eveniet fugiat laudantium eum atque placeat laboriosam iusto ipsa earum reprehenderit autem cumque, perferendis incidunt tempora qui!",
-      image: "/iam.jpg",
-      githubLink:"#" 
+      description: "अVINYA, The Annual Tech Fest of GTB4CEC, is a distinguished event celebrating innovation, knowledge, and creativity. Derived from Sanskrit, अVINYA means 'Innovation,' embodying the fest's mission to offer a platform for students to engage with emerging technologies through a range of exciting events.",
+      image: "/avinya.png",
+      githubLink:"https://github.com/Aditya-tech1/Avinya" 
     },
     { 
       id: 1, 
       title: "Portfolio Project",
-      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis beatae ut non corporis eveniet fugiat laudantium eum atque placeat laboriosam iusto ipsa earum reprehenderit autem cumque, perferendis incidunt tempora qui!",
-      image: "/iam.jpg",
-      githubLink:"#" 
+      description: "My name is Aditya Roy, and I am currently pursuing a BTech in Computer Science Engineering at GTB4CEC. I have been deeply passionate about web development and have worked diligently to enhance my skills in this field.",
+      image: "/portfolio.png",
+      githubLink:"https://github.com/Aditya-tech1/Adityaroy" 
     },
+    
     { 
       id: 2, 
-      title: "E-commerce Dashboard",
-      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis beatae ut non corporis eveniet fugiat laudantium eum atque placeat laboriosam iusto ipsa earum reprehenderit autem cumque, perferendis incidunt tempora qui!",
-      image: "/iam.jpg",
+      title: "Blog Website",
+      description: "Blog Editor is a simple, user-friendly blog editor that allows users to create, edit, and publish blog posts. It is built with React and Tailwind CSS, and it uses the JSONPlaceholder API to fetch and display blog posts.",
+      image: "/comingSoon.png",
       githubLink:"#" 
     },
-    { 
-      id: 3, 
-      title: "Weather App",
-      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis beatae ut non corporis eveniet fugiat laudantium eum atque placeat laboriosam iusto ipsa earum reprehenderit autem cumque, perferendis incidunt tempora qui!",
-      image: "/iam.jpg",
-      githubLink:"#" 
-    },
-    { 
-      id: 4, 
-      title: "Chat Application",
-      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis beatae ut non corporis eveniet fugiat laudantium eum atque placeat laboriosam iusto ipsa earum reprehenderit autem cumque, perferendis incidunt tempora qui!",
-      image: "/iam.jpg",
-      githubLink:"#" 
-    },
+    
   ]);
 
   // Active index refers to the card in the center
