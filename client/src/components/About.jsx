@@ -18,7 +18,7 @@ export default function About() {
 
             In my free time, I enjoy playing badminton and watching movies, which help me stay active and relaxed.
           </p>
-          <Link href="/" className='px-6 py-4 bg-[#d9d9d9] text-[#1c2231] rounded '>Download CV</Link>
+          <Link href="/docs/adityaRoy.pdf" download={""} target='_blank' className='px-6 py-4 bg-[#d9d9d9] text-[#1c2231] rounded '>Download CV</Link>
         </div>
       </div>
     </div>
