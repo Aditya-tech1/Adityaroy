@@ -29,7 +29,7 @@ export default function Education() {
                     <div className='flex mt-3 flex-row gap-2 items-center justify-start text-sm'>
                         {/* <img src="/vercel.svg" alt="" width={25} /> */}
                         <PercentageIcon className='w-5 h-5' />
-                        <p className='ml-2 '>81.1 CGPA</p>
+                        <p className='ml-2 '>72.6 CGPA</p>
                     </div>
                 </div>
                 <div className='w-80 h-124 bg-[#d9d9d9] p-4 text-[#1c2231] rounded-xl flex flex-col justify-evenly'>
